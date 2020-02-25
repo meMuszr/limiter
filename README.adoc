@@ -1,0 +1,20 @@
+= Limits
+
+== Purpose
+
+To limit a number to a specified range
+
+== Functionality
+
+Reads a number from `stdin` and outputs to `stdout` if the number falls within the limits specified, otherwise outputs the limit imposed
+
+== Compiling
+
+    meson setup build
+    ninja -C build
+
+== TODO
+
+* Package for distrubtions (deb / rpm / pkgbuild / brew formulae)
+
+
